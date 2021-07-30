@@ -11,7 +11,7 @@ Git Unicorn
 
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/WalyssonPaiva/git-unicorn">
 	
-  <a href="www.linkedin.com/in/walyssonpaiva">
+  <a href="https://www.linkedin.com/in/walysson-paiva">
     <img alt="Made by WalyssonPaiva" src="https://img.shields.io/badge/Made%20By-WalyssonPaiva-brightgreen">
   </a>
 
