@@ -1,5 +1,5 @@
 <div align="center">
-    <img alt="Unicorn" width="10%" heigth="10%" src="assets/icon.svg">
+    <img alt="Unicorn" width="10%" heigth="10%" src="assets/icon_github.svg">
     <h1>
 Git Unicorn
 </h1>
