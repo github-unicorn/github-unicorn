@@ -1,7 +1,7 @@
 <div align="center">
     <img alt="Unicorn" width="10%" heigth="10%" src="assets/icon_github.svg">
     <h1>
-Git Unicorn
+Github Unicorn
 </h1>
 </div>
 <p align="center">
