@@ -47,7 +47,7 @@ Github Unicorn
 In your terminal:
 ``` 
 Clone this repository
-$ git clone https://github.com/WalyssonPaiva/git-unicorn
+$ git clone https://github.com/WalyssonPaiva/github-unicorn
 ```
 In your browser:
 ``` 
