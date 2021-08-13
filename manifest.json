@@ -11,8 +11,11 @@
       {
         "matches": ["https://github.com/*"],
         "run_at": "document_idle",
-        "js": ["setTheme.js", "script.js"]
+        "js": ["setTheme.js"]
       }
     ],
-    "permissions": ["activeTab", "storage", "management"]
+    "permissions": ["activeTab", "storage", "management"],
+    "web_accessible_resources": [
+      "themes.json"
+    ]
 }
