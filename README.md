@@ -39,6 +39,8 @@ Github Unicorn
 <li> Dark Blue </li>
 <li> Pink </li>
 <li> Unicorn </li>
+<li> Sunset </li>
+<li> Harouin </li>
 </ul>
 
 <h2>:information_source: How to use: </h2>
