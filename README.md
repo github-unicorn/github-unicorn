@@ -29,11 +29,11 @@ Github Unicorn
 <img alt="Github calendar graph in pink style" src="https://user-images.githubusercontent.com/41702724/127695033-3c142c0d-977f-4184-833f-873c06ae1bb4.PNG">
 
 
-<h1>:unicorn:Extension:</h1>
+<h1>:unicorn: Extension:</h1>
 <p>A beautiful interface to select your favorite theme:</p>
 <img alt="Github calendar graph in pink style" src="https://user-images.githubusercontent.com/41702724/127694996-0ef95a91-69b2-482a-8229-7fd931f39020.PNG">
 
-<h2>:book:Current themes: </h2>
+<h2>:book: Current themes: </h2>
 <ul>
 <li> Light Blue </li>
 <li> Dark Blue </li>
