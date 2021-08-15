@@ -2,15 +2,15 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         * {
             box-sizing: border-box;
         }
 
-        .container{
+        .container {
             display: flex;
             flex-direction: column;
         }
@@ -22,7 +22,8 @@
             margin: 5px;
             border: 1px solid #3f3d56;
         }
-        .row2{
+
+        .row2 {
             display: flex;
             justify-content: flex-end;
             margin: 5px;
@@ -37,7 +38,8 @@
             font-weight: bold;
             text-transform: uppercase;
         }
-        #select:hover{
+
+        #select:hover {
             color: #3f3d56;
             background: #ff63a6;
             text-transform: uppercase;
@@ -50,14 +52,21 @@
 
 <body>
     <div class="container">
-        <img src="assets/icon.svg" alt="Unicorn">
+        <img src="assets/icon.svg" alt="Unicorn" />
+
         <label for="themes">Choose a theme:</label>
+
         <select class="input" name="themes" id="themes">
             <option value="Light_Blue">Light Blue</option>
             <option value="Dark_Blue">Dark Blue</option>
+            <option disabled>===========</option>
             <option value="Pink">Pink</option>
             <option value="Unicorn">Unicorn</option>
+            <option disabled>===========</option>
+            <option value="Sunset">Sunset</option>
+            <option value="Harouin">Harouin</option>
         </select>
+
         <div class="row2">
             <button id="select">Apply</button>
         </div>
