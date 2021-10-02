@@ -33,8 +33,9 @@ Github Unicorn
 <p>A beautiful interface to select your favorite theme:</p>
 <img alt="Github calendar graph in pink style" src="https://user-images.githubusercontent.com/41702724/127694996-0ef95a91-69b2-482a-8229-7fd931f39020.PNG">
 
-<h2>:book: Current themes: </h2>
+<h2>:book: Available themes: </h2>
 <ul>
+<li> Github Halloween </li>
 <li> Light Blue </li>
 <li> Dark Blue </li>
 <li> Pink </li>
@@ -48,14 +49,16 @@ Github Unicorn
 
 In your terminal:
 ``` 
-Clone this repository
+Clone this repository:
+
 $ git clone https://github.com/WalyssonPaiva/github-unicorn
 ```
 In your browser:
 ``` 
 go to: chrome://extensions
-check the box for developer mode in the top right
-click the load unpacked button
-select the extension folder
+
+check the box for developer mode in the top right;
+click the load unpacked button;
+select the extension folder;
 ```
 <p>Thanks for reading :heart:</p>
