@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<style>
-			* {
-				box-sizing: border-box;
-			}
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-			.container {
-				display: flex;
-				flex-direction: column;
-			}
+      .container {
+        display: flex;
+        flex-direction: column;
+      }
 
-			.input {
-				width: 100px;
-				padding: 5px;
-				border-radius: 5px;
-				margin: 5px;
-				border: 1px solid #3f3d56;
-			}
+      .input {
+        width: 100px;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px;
+        border: 1px solid #3f3d56;
+      }
 
-			.row2 {
-				display: flex;
-				justify-content: flex-end;
-				margin: 5px;
-			}
+      .row2 {
+        display: flex;
+        justify-content: flex-end;
+        margin: 5px;
+      }
 
-			#select {
-				border-radius: 5px;
-				padding: 5px;
-				background: #3f3d56;
-				color: #ff63a6;
-				font-size: 1.2em;
-				font-weight: bold;
-				text-transform: uppercase;
-			}
+      #select {
+        border-radius: 5px;
+        padding: 5px;
+        background: #3f3d56;
+        color: #ff63a6;
+        font-size: 1.2em;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
 
-			#select:hover {
-				color: #3f3d56;
-				background: #ff63a6;
-				text-transform: uppercase;
-				transition: 0.4s;
-				cursor: pointer;
-			}
-		</style>
-		<title>Choose your theme</title>
-	</head>
+      #select:hover {
+        color: #3f3d56;
+        background: #ff63a6;
+        text-transform: uppercase;
+        transition: 0.4s;
+        cursor: pointer;
+      }
+    </style>
+    <title>Choose your theme</title>
+  </head>
 
-	<body>
-		<div class="container">
-			<img src="assets/icon.svg" alt="Unicorn" />
+  <body>
+    <div class="container">
+      <img src="assets/icon.svg" alt="Unicorn" />
 
-			<label for="themes">Choose a theme:</label>
+      <label for="themes">Choose a theme:</label>
 
-			<select class="input" name="themes" id="themes">
-				<option value="Github_Halloween">Github Halloween</option>
-				<option value="Light_Blue">Light Blue</option>
-				<option value="Dark_Blue">Dark Blue</option>
-				<option value="Pink">Pink</option>
-				<option value="Unicorn">Unicorn</option>
-				<option value="Sunset">Sunset</option>
-				<option value="Harouin">Harouin</option>
-				<option value="Nord_Frost">Nord Frost</option>
-			</select>
+      <select class="input" name="themes" id="themes">
+        <option value="Github_Halloween">Github Halloween</option>
+        <option value="Light_Blue">Light Blue</option>
+        <option value="Dark_Blue">Dark Blue</option>
+        <option value="Pink">Pink</option>
+        <option value="Unicorn">Unicorn</option>
+        <option value="Sunset">Sunset</option>
+        <option value="Harouin">Harouin</option>
+        <option value="Nord_Frost">Nord Frost</option>
+        <option value="Aura_Mono">Aura Mono</option>
+      </select>
 
-			<div class="row2">
-				<button id="select">Apply</button>
-			</div>
-		</div>
-		<script src="script.js"></script>
-	</body>
+      <div class="row2">
+        <button id="select">Apply</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
