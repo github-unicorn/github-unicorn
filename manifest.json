@@ -1,21 +1,19 @@
 {
-    "name": "Git Unicorn",
-    "description": "Let's make git stylish again!",
-    "version": "0.1",
-    "manifest_version": 2,
-    "browser_action": {
-      "default_icon": "assets/icon_no_background.png",
-      "default_popup": "popup.html"
-    },
-    "content_scripts": [
-      {
-        "matches": ["https://github.com/*"],
-        "run_at": "document_idle",
-        "js": ["setTheme.js"]
-      }
-    ],
-    "permissions": ["activeTab", "storage", "management"],
-    "web_accessible_resources": [
-      "themes.json"
-    ]
+	"name": "Git Unicorn",
+	"description": "Let's make git stylish again!",
+	"version": "0.1",
+	"manifest_version": 2,
+	"browser_action": {
+		"default_icon": "assets/icon_no_background.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://github.com/*"],
+			"run_at": "document_idle",
+			"js": ["setTheme.js"]
+		}
+	],
+	"permissions": ["activeTab", "storage", "management"],
+	"web_accessible_resources": ["themes.json"]
 }
