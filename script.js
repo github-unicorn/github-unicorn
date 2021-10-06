@@ -18,6 +18,7 @@ function selectTheme() {
 	chrome.storage.sync.set({ currentTheme: value }, function () {
 		console.log("Settings saved");
 	});
+	chrome.tabs.reload();
 }
 
 function setCurrentTheme(currentTheme) {
