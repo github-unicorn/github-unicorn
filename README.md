@@ -39,6 +39,7 @@ Github Unicorn
 	<ul>
 		<li> Aura Mono </li>
 		<li> Dark Blue </li>
+		<li> Dark Unicorn </li>
 		<li> Github Halloween </li>
 		<li> Harouin </li>
 		<li> Light Blue </li>
