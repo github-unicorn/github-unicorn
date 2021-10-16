@@ -3,6 +3,9 @@
 	"description": "Let's make git stylish again!",
 	"version": "0.1",
 	"manifest_version": 2,
+	"icons": {
+		"128": "assets/icon_no_background.png"
+	},
 	"browser_action": {
 		"default_icon": "assets/icon_no_background.png",
 		"default_popup": "popup.html"
