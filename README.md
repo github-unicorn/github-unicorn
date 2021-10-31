@@ -25,7 +25,7 @@ Github Unicorn
 <h1>
   :clipboard: Project:
 </h1>
-<p>Customize your github calendar graph</p>
+<p>Customize your github calendar graph, activity overview and more.</p>
 <img alt="Github calendar graph in pink style" src="https://user-images.githubusercontent.com/41702724/127695033-3c142c0d-977f-4184-833f-873c06ae1bb4.PNG">
 
 
