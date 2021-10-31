@@ -1,22 +1,18 @@
-chrome.storage.sync.get(["currentTheme"], aplyingTheme);
+chrome.storage.sync.get(["currentTheme"], applyingTheme);
 
-function aplyingTheme(currentTheme) {
+function applyingTheme(currentTheme) {
+	let sTheme = {};
+
 	fetch(chrome.extension.getURL("./themes.json"))
 		.then((resp) => resp.json())
 		.then(function (jsonData) {
 			if (jsonData[currentTheme.currentTheme] != undefined) {
-				const { lv1, lv2, lv3, lv4 } =
+				sTheme = { lv1, lv2, lv3, lv4 } =
 					jsonData[currentTheme.currentTheme];
-
-				const sTheme = { lv1, lv2, lv3, lv4 };
-
-				setProperties(sTheme);
 			} else {
-				const { lv1, lv2, lv3, lv4 } = jsonData["Pink"];
-
-				const sTheme = { lv1, lv2, lv3, lv4 };
-				setProperties(sTheme);
+				sTheme = { lv1, lv2, lv3, lv4 } = jsonData["Dark_Unicorn"];
 			}
+			setProperties(sTheme);
 		});
 }
 
@@ -43,8 +39,8 @@ function setProperties(theme) {
 
 	if (acOvPoint[0]) {
 		for (let k = 0, z = acOvPoint.length; k < z; k++) {
-			acOvPoint[k].style.fill = theme.lv3;
-			acOvPoint[k].style.stroke = theme.lv4;
+			acOvPoint[k].style.fill = theme.lv1;
+			acOvPoint[k].style.stroke = theme.lv2;
 		}
 	}
 
@@ -53,3 +49,22 @@ function setProperties(theme) {
 	page.style.setProperty("--color-calendar-graph-day-L3-bg", theme.lv3);
 	page.style.setProperty("--color-calendar-graph-day-L4-bg", theme.lv4);
 }
+
+(() => {
+	chrome.storage.sync.get(["currentTheme"], applyingTheme);
+
+	const container = document.getElementById("js-pjax-container");
+	if (container) {
+		const listener = new MutationObserver(() => {
+			const graph = document.getElementsByClassName(
+				"js-yearly-contributions"
+			)[0];
+
+			if (graph) {
+				chrome.storage.sync.get(["currentTheme"], applyingTheme);
+			}
+		});
+
+		listener.observe(container, { subtree: true, childList: true });
+	}
+})();
