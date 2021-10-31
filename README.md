@@ -67,4 +67,4 @@ check the box for developer mode in the top right;
 click the load unpacked button;
 select the extension folder;
 ```
-<p>Thanks for reading :heart:</p>
+<p>Made with :heart: by <a href="https://github.com/WalyssonPaiva">Walysson Paiva</a></p>
