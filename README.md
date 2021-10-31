@@ -51,7 +51,7 @@ Github Unicorn
 </details>
 
 <h2>:information_source: How to use: </h2>
-<p> for now not available on the Chrome Web Store </p>
+<p> For now not available on the Chrome Web Store. </p>
 
 In your terminal:
 ```
