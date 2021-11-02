@@ -53,7 +53,7 @@ function setProperties(theme) {
 		for (let l = 0, w = progressBar.length; l < w; l++) {
 			let percentage =  parseInt(progressBar[l].style.width.replace("%",""));
 
-			if (percentage >= 0 && percentage <= 25) {
+			if (percentage > 0 && percentage <= 25) {
 				progressBar[l].style.backgroundColor = theme.lv1;
 			}
 
