@@ -21,6 +21,8 @@ function setProperties(theme) {
 	const jsHgBlob = document.getElementsByClassName("js-highlight-blob");
 	const acOvAxis = document.getElementsByClassName("activity-overview-axis");
 	const acOvPoint = document.getElementsByClassName("activity-overview-point");
+
+	// apply colors without rewrite 'Languages' bar
 	const progressBar = document.querySelectorAll(".Progress-item:not(.color-bg-success-inverse)");
 
 	// apply colors in github contribution calendar graph
