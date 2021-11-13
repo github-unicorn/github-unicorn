@@ -18,7 +18,15 @@ function selectTheme() {
 	chrome.storage.sync.set({ currentTheme: value }, function () {
 		console.log("Settings saved.");
 	});
-	chrome.tabs.reload();
+	chrome.tabs.query({
+		active: true,
+		lastFocusedWindow: true
+	}, function(tabs) {
+		var tab = tabs[0];
+		if (tab.url.includes("github.com")) {
+			chrome.tabs.reload();
+		}
+	});
 }
 
 function setCurrentTheme(currentTheme) {
