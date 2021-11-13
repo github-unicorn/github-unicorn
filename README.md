@@ -25,7 +25,7 @@ Github Unicorn
 <h1>
   :clipboard: Project:
 </h1>
-<p>Customize your github calendar graph</p>
+<p>Customize your github calendar graph, activity overview, progress bars and more.</p>
 <img alt="Github calendar graph in pink style" src="https://user-images.githubusercontent.com/41702724/127695033-3c142c0d-977f-4184-833f-873c06ae1bb4.PNG">
 
 
@@ -51,7 +51,7 @@ Github Unicorn
 </details>
 
 <h2>:information_source: How to use: </h2>
-<p> for now not available on the Chrome Web Store </p>
+<p> For now not available on the Chrome Web Store. </p>
 
 In your terminal:
 ```
@@ -67,4 +67,4 @@ check the box for developer mode in the top right;
 click the load unpacked button;
 select the extension folder;
 ```
-<p>Thanks for reading :heart:</p>
+<p>Made with :heart: by <a href="https://github.com/WalyssonPaiva">Walysson Paiva</a></p>

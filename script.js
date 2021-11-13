@@ -16,7 +16,7 @@ function selectTheme() {
 	var value = select.options[select.selectedIndex].value;
 
 	chrome.storage.sync.set({ currentTheme: value }, function () {
-		console.log("Settings saved");
+		console.log("Settings saved.");
 	});
 	chrome.tabs.reload();
 }
