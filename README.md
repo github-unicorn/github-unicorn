@@ -63,9 +63,9 @@ In your browser:
 ```
 go to: chrome://extensions
 
-check the box for developer mode in the top right;
-click the load unpacked button;
-select the extension folder;
+- check the box for developer mode in the top right;
+- click the load unpacked button;
+- select the extension folder;
 ```
 
 <h2>:bulb: How to contribute?</h2>
