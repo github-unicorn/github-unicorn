@@ -1,19 +1,19 @@
 # Contributing
 
-To maintain some project patterns, we've added this contribution guide to help those who want to contribute to the project in the future.
+To maintain some project patterns, we've added this contribution guide for help those who want to contribute to this project.
 
 ## Fork this project and create a new branch
 
 1. Fork this project: (<https://github.com/github-unicorn/github-unicorn/fork>)
 2. Clone the forked repository and create a new branch: (`git checkout -b branch_name`)
-3. Commit your changes: (`git commit -am 'Type: small description'`)
+3. Commit your changes: (`git commit -m 'Type: small description'`)
     1. Available Types (replace in Type): add|feat|fix|docs|theme
 4. Push commited changes: (`git push origin branch_name`)
 5. Create a new Pull Request (if it is your first PR, follow [this](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3/) tutorial to understand how it does)
 
 ## How to contribute with a new theme?
 
-- First, you need to fill all color levels and give the new theme a name. So, add the code below at the [themes.json](themes.json) file with your changes:
+- First, you need to fill all color levels and give a name to the new theme. So, add the code below at the [themes.json](themes.json) file with your changes:
 
 ```json
   ,
