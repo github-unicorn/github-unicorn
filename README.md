@@ -72,4 +72,6 @@ select the extension folder;
 
 If you want to contribute, check [ our contribution guideline](CONTRIBUTING.md).
 
+<div align="center">
 <p>Made with :heart: by <a href="https://github.com/WalyssonPaiva">Walysson Paiva</a></p>
+</div>
