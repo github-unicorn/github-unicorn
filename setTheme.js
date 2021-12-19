@@ -23,7 +23,7 @@ function setProperties(theme) {
 	const acOvPoint = document.getElementsByClassName("activity-overview-point");
 
 	// apply colors without rewrite 'Languages' bar
-	const progressBar = document.querySelectorAll(".Progress-item:not(.color-bg-success-inverse)");
+	const progressBar = document.querySelectorAll(".Progress-item:not(.color-bg-success-emphasis)");
 
 	// apply colors in github contribution calendar graph
 	if (jsHgBlob[0]) {
