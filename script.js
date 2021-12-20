@@ -10,6 +10,15 @@ function onMouseOut() {
 function onMouseOver() {
 	chbg("1px solid #ff63a6");
 }
+(function () {
+	let today = new Date();
+	if (today.getMonth() == 11 && today.getDate() == 25)
+		document.getElementById('unicorn_logo').src = chrome.extension.getURL('assets/christmas_icon.svg');
+})();
+
+function dateToEpoch2(thedate) {
+	return thedate.setHours(0, 0, 0, 0);
+}
 
 function selectTheme() {
 	var select = document.getElementById("themes");
@@ -21,7 +30,7 @@ function selectTheme() {
 	chrome.tabs.query({
 		active: true,
 		lastFocusedWindow: true
-	}, function(tabs) {
+	}, function (tabs) {
 		var tab = tabs[0];
 		if (tab.url.includes("github.com")) {
 			chrome.tabs.reload();
