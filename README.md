@@ -49,6 +49,7 @@ Github Unicorn
 		<li> Nord Frost </li>
 		<li> Pink </li>
 		<li> Sunset </li>
+		<li> Summer </li>
 		<li> Unicorn </li>
 		<li> Synthwave </li>
 	</ul>
