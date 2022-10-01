@@ -50,6 +50,7 @@ Github Unicorn
 		<li> Pink </li>
 		<li> Sunset </li>
 		<li> Unicorn </li>
+		<li> Synthwave </li>
 	</ul>
 </details>
 
