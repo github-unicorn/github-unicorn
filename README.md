@@ -20,6 +20,8 @@ Github Unicorn
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/WalyssonPaiva/git-unicorn">
   </a>
 
+  <img alt="Issues ?" src="https://img.shields.io/github/issues/github-unicorn/github-unicorn?style=social">
+
   <img alt="Stars <3" src="https://img.shields.io/github/stars/WalyssonPaiva/git-unicorn?style=social">
 </p>
 
@@ -55,12 +57,15 @@ Github Unicorn
 <p> For now, the extension is not available on the Chrome Web Store. </p>
 
 In your terminal:
+
 ```
 Clone this repository:
 
 $ git clone https://github.com/github-unicorn/github-unicorn
 ```
+
 In your browser:
+
 ```
 go to: chrome://extensions
 
