@@ -6,7 +6,7 @@
 	"icons": {
 		"128": "assets/icon_no_background.png"
 	},
-	"browser_action": {
+	"action": {
 		"default_icon": "assets/icon_no_background.png",
 		"default_popup": "popup.html"
 	},
@@ -18,5 +18,8 @@
 		}
 	],
 	"permissions": ["activeTab", "storage", "management"],
-	"web_accessible_resources": ["themes.json"]
+	"web_accessible_resources": [{
+		"resources": ["themes.json"],
+		"matches": ["https://github.com/*"]
+	}]
 }
