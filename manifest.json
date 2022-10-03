@@ -2,7 +2,7 @@
 	"name": "Github Unicorn",
 	"description": "Let's make git stylish again!",
 	"version": "0.1",
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"icons": {
 		"128": "assets/icon_no_background.png"
 	},
