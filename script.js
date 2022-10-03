@@ -16,6 +16,12 @@ function onMouseOver() {
 	let today = new Date();
 	if (today.getMonth() == 11 && today.getDate() == 25)
 		document.getElementById('unicorn_logo').src = browser.runtime.getURL('assets/christmas_icon.svg');
+	if (today.getMonth() == 9 && today.getDate() == 31){
+		document.getElementById('unicorn_logo').src = browser.runtime.getURL('assets/halloween_icon.svg');
+		document.getElementsByTagName('body')[0].style.backgroundColor = "#0c0b0b";
+		document.getElementsByTagName('body')[0].style.color = "#ff0000";
+
+	}
 })();
 
 function dateToEpoch2(thedate) {
