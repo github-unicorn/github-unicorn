@@ -2,7 +2,9 @@ button = document.querySelector("#select");
 button.addEventListener("click", selectTheme);
 button.addEventListener("mouseout", onMouseOut);
 button.addEventListener("mouseover", onMouseOver);
-
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
 function onMouseOut() {
 	chbg("1px solid #3f3d56");
 }
@@ -13,7 +15,7 @@ function onMouseOver() {
 (function () {
 	let today = new Date();
 	if (today.getMonth() == 11 && today.getDate() == 25)
-		document.getElementById('unicorn_logo').src = chrome.extension.getURL('assets/christmas_icon.svg');
+		document.getElementById('unicorn_logo').src = browser.runtime.getURL('assets/christmas_icon.svg');
 })();
 
 function dateToEpoch2(thedate) {

@@ -1,9 +1,12 @@
+if (typeof browser === "undefined") {
+    var browser = chrome;
+}
 chrome.storage.sync.get(["currentTheme"], applyingTheme);
 
 function applyingTheme(currentTheme) {
 	let sTheme = {};
 
-	fetch(chrome.extension.getURL("./themes.json"))
+	fetch(browser.runtime.getURL("./themes.json"))
 		.then((resp) => resp.json())
 		.then(function (jsonData) {
 			if (jsonData[currentTheme.currentTheme] != undefined) {
