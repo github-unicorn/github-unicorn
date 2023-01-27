@@ -81,5 +81,5 @@ go to: chrome://extensions
 If you want to contribute, check [ our contribution guideline](CONTRIBUTING.md).
 
 <div align="center">
-<p>Made with :heart: by <a href="https://github.com/WalyssonPaiva">Walysson Paiva</a></p>
+<p>Made with :heart: by <a href="https://www.linkedin.com/in/walyssonpaiva/">Walysson Paiva</a> and <a href="https://www.linkedin.com/in/evaldo-felipe/">Evaldo Felipe</a></p>
 </div>
